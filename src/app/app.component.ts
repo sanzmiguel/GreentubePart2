@@ -5,13 +5,4 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  
-  email: string;
-  password: string;
-
-  onSubmit(){
-    
-  }
-
-}
+export class AppComponent {}

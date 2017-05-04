@@ -1,20 +1,15 @@
-<div class="container">
-  <div class="row">
-    <div class="col-md-offset-5 col-md-3 col-sm-4 col-sm-offset-3 col-xs-12">
-      <div class="form-login">
-        <form #loginForm="ngForm" (ngSubmit)="onSubmit()">
-          <h4>Greentube Login</h4>
-          <input type="email" [(ngModel)]="email" name="email" class="form-control input-sm chat-input" placeholder="Email"/>
-          <br>
-          <input type="password" [(ngModel)]="password" name="password" class="form-control input-sm chat-input" placeholder="Password"/>
-          <br>
-          <div class="wrapper">
-            <span class="group-btn">
-              <button type="submit" class="btn btn-primary btn-md">Login</button>
-            </span>
-          </div>
-        </form>
-      </div>
+<header class="navbar navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <h1 class="navbar-brand">Greentube Header</h1>
     </div>
   </div>
-</div>
+</header>
+<greentube-login></greentube-login>
+<footer class="navbar navbar-fixed-bottom">
+    <div class="container">
+      <div class="navbar-header">
+        <p class="navbar-brand">Greentube Footer</p>
+      </div>
+    </div>
+</footer>

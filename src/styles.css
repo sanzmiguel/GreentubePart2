@@ -1,15 +1,1 @@
 /* You can add global styles to this file, and also import other style files */
-header, footer{
-    background-color: #47aa42 !important;
-    height: 75px;
-}
-
-header h1, footer p{
-    color: #fff !important;
-}
-
-app-root{
-    position: absolute;
-    margin-top: 75px;
-    margin-bottom: 75px;
-}

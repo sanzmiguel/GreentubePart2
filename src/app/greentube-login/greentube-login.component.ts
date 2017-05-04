@@ -7,13 +7,10 @@ import { ToastsManager } from 'ng2-toastr/ng2-toastr';
   styleUrls: ['./greentube-login.component.css']
 })
 export class GreentubeLoginComponent {
-
   constructor(public toastr: ToastsManager, vcr: ViewContainerRef){
     this.toastr.setRootViewContainerRef(vcr);
   }
-
   onSubmit(){
     this.toastr.success('Login succesful!!!');
   }
-
 }

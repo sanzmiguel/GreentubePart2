@@ -1,14 +1,2 @@
-header, footer{
-    background-color: #47aa42 !important;
-    height: 75px;
-}
-
-header h1, footer p{
-    color: #fff !important;
-}
-
-greentube-login{
-    position: absolute;
-    margin-top: 75px;
-    margin-bottom: 75px;
-}
+header, footer{background-color: #47aa42 !important; height: 75px; color: #fff !important;}
+greentube-login{position: absolute; margin: 75px 0px;}

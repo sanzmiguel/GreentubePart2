@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, ViewContainerRef } from '@angular/core';
+import { ToastsManager } from 'ng2-toastr/ng2-toastr';
 
 @Component({
   selector: 'greentube-login',
@@ -6,11 +7,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./greentube-login.component.css']
 })
 export class GreentubeLoginComponent {
-  
-  email: string;
-  password: string;
+
+  constructor(public toastr: ToastsManager, vcr: ViewContainerRef){
+    this.toastr.setRootViewContainerRef(vcr);
+  }
 
   onSubmit(){
+    this.toastr.success('Login succesful!!!');
   }
 
 }

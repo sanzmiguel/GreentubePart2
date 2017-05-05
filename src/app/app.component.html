@@ -1,15 +1,15 @@
 <header class="navbar navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
-      <h1 class="navbar-brand">Greentube Header</h1>
+      <h1 class="navbar-brand">{{ 'APP_HEADER' | translate }}</h1>
     </div>
   </div>
 </header>
-<greentube-login></greentube-login>
 <footer class="navbar navbar-fixed-bottom">
     <div class="container">
       <div class="navbar-header">
-        <p class="navbar-brand">Greentube Footer</p>
+        <p class="navbar-brand">{{ 'APP_FOOTER' | translate }}</p>
       </div>
     </div>
 </footer>
+<router-outlet></router-outlet>

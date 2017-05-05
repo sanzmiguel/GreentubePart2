@@ -12,24 +12,26 @@
               {{ 'EMAIL_REQUIRED' | translate }}
             </div>
             <div [hidden]="!mail.errors.pattern">
-              Email is not correct
+              {{ 'EMAIL_NOT_CORRECT' | translate }}
             </div>
           </div>
           <br>
           <input type="password" [(ngModel)]="password" name="password" id="password" #pass="ngModel"
-                class="form-control input-sm chat-input" placeholder="Password" required minlength="4"/>
+                class="form-control input-sm chat-input" placeholder="{{ 'PASSWORD' | translate }}" required minlength="4"/>
           <div *ngIf="pass.errors && (pass.dirty || pass.touched)" class="alert alert-danger">
             <div [hidden]="!pass.errors.required">
-              Password is required
+              {{ 'PASSWORD_REQUIRED' | translate }}
             </div>
             <div [hidden]="!pass.errors.minlength">
-              Password must be at least 4 characters.
+              {{ 'PASSWORD_MIN' | translate }}
             </div>
           </div>
           <br>
           <div class="wrapper">
             <span class="group-btn">
-              <button type="submit" class="btn btn-primary btn-md" [disabled]="!loginForm.form.valid">Login</button>
+              <button type="submit" class="btn btn-primary btn-md" [disabled]="!loginForm.form.valid">
+                {{ 'LOGIN' | translate }}
+              </button>
             </span>
           </div>
         </form>

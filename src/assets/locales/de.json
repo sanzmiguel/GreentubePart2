@@ -4,5 +4,10 @@
     "LOGIN_HEADER": "Greentube Anmeldung",
     "EMAIL_REQUIRED": "E-Mail ist erforderlich",
     "EMAIL": "Email",
+    "EMAIL_NOT_CORRECT": "E-Mail ist nicht korrekt",
+    "PASSWORD": "Passwort",
+    "PASSWORD_MIN": "Das Passwort muss mindestens 4 Zeichen lang sein",
+    "PASSWORD_REQUIRED": "Passwort wird benötigt",
+    "LOGIN": "Anmeldung",
     "ROUTES.login": "Anmeldung"
 }

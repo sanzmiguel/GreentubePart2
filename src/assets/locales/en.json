@@ -4,5 +4,10 @@
     "LOGIN_HEADER": "Greentube Login",
     "EMAIL_REQUIRED": "Email is required",
     "EMAIL": "Email",
+    "EMAIL_NOT_CORRECT": "Email is not correct",
+    "PASSWORD": "Password",
+    "PASSWORD_REQUIRED": "Password is required",
+    "PASSWORD_MIN": "Password must be at least 4 characters",
+    "LOGIN": "Login",
     "ROUTES.login": "login"
 }

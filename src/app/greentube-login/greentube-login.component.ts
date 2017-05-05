@@ -8,6 +8,8 @@ import { Router } from '@angular/router';
   styleUrls: ['./greentube-login.component.css'],
 })
 export class GreentubeLoginComponent {
+  email: string;
+  password: string;
   constructor(private router: Router, public toastr: ToastsManager, vcr: ViewContainerRef){
     this.toastr.setRootViewContainerRef(vcr);
   }

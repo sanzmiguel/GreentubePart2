@@ -36,3 +36,4 @@ The following external libraries have been used in the project:
 * [Bootstrap](https://github.com/angular/angular-cli/blob/master/docs/documentation/stories/include-bootstrap.md)
 * [ng2-toastr](https://github.com/PointInside/ng2-toastr)
 * [localize-router](https://github.com/Greentube/localize-router)
+* [ngx-translate](http://www.ngx-translate.com/)

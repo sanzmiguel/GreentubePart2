@@ -1,12 +1,12 @@
-# Greentube tasks Part 2
+# Greentube Tasks Part 2
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.1.
 
 ## Installation
 
-* Clone the repository(git clone https://github.com/sanzmiguel/GreentubeTasks)
-* Checkout branch Part2(git branch ckeckout Part2)
-* Install dependencies(npm install)
+* Clone the repository (git clone https://github.com/sanzmiguel/GreentubeTasks)
+* Checkout branch Part2 (git branch ckeckout Part2)
+* Install dependencies (npm install)
 
 ## Development server
 

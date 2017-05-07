@@ -5,7 +5,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Installation
 
 * Clone the repository (git clone https://github.com/sanzmiguel/GreentubeTasks)
-* Checkout branch Part3 (git branch checkout Part3)
+* Checkout branch Part3 (git checkout Part3)
 * Install dependencies (npm install)
 
 ## Development server

@@ -4,7 +4,7 @@ import { LocalizeRouterModule } from 'localize-router';
 import { GreentubeLoginComponent } from './greentube-login/greentube-login.component';
 
 const routes: Routes = [
-    { path: 'login', component: GreentubeLoginComponent, pathMatch: 'full' }
+    { path: 'login', component: GreentubeLoginComponent }
 ];
 
 @NgModule({
